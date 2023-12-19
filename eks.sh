@@ -13,6 +13,10 @@ curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/d
 sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
 
+#installing an awscli:
+apt-get update
+apt-get install -y awscli
+
 #create an IAM User:
 #IAM
 #EC2
